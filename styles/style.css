@@ -1,0 +1,33 @@
+.screen {
+  margin: 0 auto;
+  height: 50px;
+  width: 500px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.button__section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 500px;
+  border: 1px solid #000;
+  padding: 20px;
+  gap: 10px;
+}
+
+.button__block {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.button {
+  font-size: 90px;
+  background-color: rgb(173, 216, 230);
+  color: #000;
+  border-radius: 3px;
+  border: 1px solid #000;
+  width: 90px;
+}
