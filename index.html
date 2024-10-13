@@ -11,13 +11,14 @@
 <body>
 
 
-    <div id="screen" class="screen">
-
+    <div class="screen">
+        <input type="text" id="display" placeholder="введите"><input>
     </div>
 
 
 
     <div class="button__section">
+
         <div class="button__block">
             <button id="one" value="1" class="button">1</button>
             <button id="two" value="2" class="button">2</button>
@@ -45,11 +46,11 @@
         <div class="button__block">
             <button id="multiplication" value="*" class="button">*</button>
             <button id="division" value="/" class="button">/</button>
-            <button id="clear" value="C" class="button">C</button>
+            <button onclick="calculate()" class="button">=</button>
         </div>
 
         <div class="button__block">
-            <button id="equal" value="=" class="button">=</button>
+            <button id="clear" onclick="clearInput()" value="" class="button">C</button>
         </div>
     </div><!--button__section-->
 
